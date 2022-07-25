@@ -4,11 +4,111 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Landing Page Simples</title>
 </head>
 <body>
   <header class="header">
-    
+    <div class="conteiner">
+      <h2>Logo</h2>
+    </div>
+    <div class="conteiner menu">
+      <button type="button">Clinicas</button>
+      │
+      <button type="button">Planos</button>
+      │
+      <button type="button">Contato</button>
+    </div>
+    <div class="conteiner">
+      <button type="button">Button</button>
+    </div>
   </header>
+  <main class="main">
+    <div class="maina">
+      <div class="conteiner__main text">
+        <p>Litle text info</p>
+        <h1>Your Breve Description Here</h1>
+        <p>More Little infos to make a visual layout</p>
+      </div>
+    </div>
+    <h3 class="h3">Plano Full</h3>
+    <div class="mainc bottom">
+      <div class="bigb">
+        <button class="bigbtn__plan" type="button">
+          <span>10%</span>
+          <p>Mes</p>
+          <h3>R$50,00</h3>
+        </button>
+        <button class="bigbtn__plan" type="button">
+          <span>20%</span>
+          <p>Trimenstre</p>
+          <h3>R$150,00</h3>
+        </button>
+        <button class="bigbtn__plan" type="button">
+          <span>30%</span>
+          <p>Semestre</p>
+          <h3>R$500,00</h3>
+        </button>
+        <button class="bigbtn__plan" type="button">
+          <span>40%</span>
+          <p>Anual</p>
+          <h3>R$1500,00</h3>
+        </button>
+        <button class="bigbtn__plan" type="button">
+          <span>50%</span>
+          <p>Bianual</p>
+          <h3>R$2500,00</h3>
+        </button>
+
+      </div>
+    </div>
+
+  </main>
+
+  <div class="tabs">
+    <div class="tab_tab">
+      <input  type="radio" id="tab_1" name="tab_tabs" checked>
+      <label class="label" for="tab_1">Clinicas</label>
+      <div class="tab_content">
+        <h3>Unidades</h3>
+        <div class="clinicas">
+          <div class="clinica">
+            <h3>Clinica 1</h3>
+            <p>Localization Av. lalaland, 1024</p>
+            <button type="button">Mais</button>
+          </div>
+          <div class="clinica">
+            <h3>Clinica 1</h3>
+            <p>Localization Av. lalaland, 1024</p>
+            <button type="button">Mais</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab_tab">
+      <input type="radio" id="tab_2" name="tab_tabs" >
+      <label class="label" for="tab_2">Tratamentos</label>
+      <div class="tab_content">
+        Content 2
+      </div>
+    </div>
+    <div class="tab_tab">
+      <input type="radio" id="tab_3" name="tab_tabs" >
+      <label class="label" for="tab_3">Sobre</label>
+      <div class="tab_content">
+        Contetn 3
+      </div>
+    </div>
+    <div class="tab_tab">
+      <input  type="radio" id="tab_4" name="tab_tabs" >
+      <label class="label" for="tab_4">Contato</label>
+      <div class="tab_content">
+        Content 4
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+
+  </footer>
 </body>
 </html>
